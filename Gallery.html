@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+
+    <style>
+      body {
+        background-color: gray;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+      }
+
+      .gallery {
+        display: flex;
+        justify-content: center; /* agar rata tengah */
+        gap: 20px; /* jarak antar foto */
+        flex-wrap: wrap; /* agar responsif (kalau layar kecil bisa turun ke bawah) */
+      }
+
+      .gallery img {
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+        object-fit: cover;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <p
+      style="
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 60px;
+        color: white;
+      "
+    >
+      My Gallery
+    </p>
+    <div class="gallery">
+      <img src="foto/muti-yumeeze-revisi.png" alt="Desain 1" />
+      <img src="foto/muti-ASTAY-v2.png" alt="Desain 2" />
+      <img src="foto/id card contoh.png" alt="Desain 2" />
+      <img src="foto/poster wardah.png" alt="Desain 3" />
+      <img src="foto/poster 1.jpg" alt="Desain 3" />
+      <img src="foto/keripik ingkong.png" alt="Desain 1" />
+      <img src="foto/jeep.jpg" alt="Desain 1" />
+      <img src="foto/mockup nanis 2.png" alt="Desain 2" />
+    </div>
+   <p>
+    kembali ke <a href="index.html">Halaman Utama</a>
+    </p>
+</body>
+</html>
+  </body>
+</html>
